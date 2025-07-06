@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Mohammed Zaid</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Mohammed Zaid" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name">Mohammed Zaid</h1>
+          <p class="title">Final‑Year AI & Data Science Engineer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:mohdzaidmz035@gmail.com" class="contact-link">mohdzaidmz035@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+918688602788" class="contact-link">+91 86886 02788</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2003-03-22">March 22, 2003</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Hyderabad, Telangana, India</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://linkedin.com/in/mohammed-zaid" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/mohammed-zaid" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://twitter.com/zaid_ai" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="resume.html" class="navbar-link">Resume</a>
+          </li>
+          <li class="navbar-item">
+            <a href="portfolio.html" class="navbar-link">Portfolio</a>
+          </li>
+          <li class="navbar-item">
+            <a href="blog.html" class="navbar-link active">Blog</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="blog active">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Robotics</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-02-23">Feb 23, 2024</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Building Autonomous Robots: From Concept to Competition</h3>
+                  <p class="blog-text">
+                    A deep dive into the development process of our award-winning autonomous line follower robot, covering sensor integration, PID tuning, and competition strategies.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">IoT</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-01-15">Jan 15, 2024</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">IoT in Smart Agriculture: Revolutionizing Farming</h3>
+                  <p class="blog-text">
+                    How we built a comprehensive environmental monitoring system using ESP8266, multiple sensors, and real-time data visualization for precision agriculture.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">AI/ML</p>
+                    <span class="dot"></span>
+                    <time datetime="2023-12-10">Dec 10, 2023</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Computer Vision for Disaster Response</h3>
+                  <p class="blog-text">
+                    Exploring the development of our flood rescue drone's computer vision system using YOLOv8 and OpenCV for real-time object detection in emergency scenarios.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Robotics</p>
+                    <span class="dot"></span>
+                    <time datetime="2023-11-28">Nov 28, 2023</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Voice-Controlled Prosthetics: Bridging Technology and Humanity</h3>
+                  <p class="blog-text">
+                    The journey of developing an affordable, voice-controlled prosthetic arm using Arduino, speech recognition, and servo motors for enhanced accessibility.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">IoT</p>
+                    <span class="dot"></span>
+                    <time datetime="2023-10-15">Oct 15, 2023</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Smart Home Automation: Building the Future</h3>
+                  <p class="blog-text">
+                    Comprehensive guide to creating a centralized IoT hub for home automation, including sensor networks, mobile app integration, and voice control.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">AI/ML</p>
+                    <span class="dot"></span>
+                    <time datetime="2023-09-20">Sep 20, 2023</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Deep Learning for Facial Recognition: A Practical Approach</h3>
+                  <p class="blog-text">
+                    Step-by-step implementation of a facial recognition system using Python, OpenCV, and deep learning models for security applications.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html> 

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Mohammed Zaid</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Mohammed Zaid" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name">Mohammed Zaid</h1>
+          <p class="title">Final‑Year AI & Data Science Engineer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:mohdzaidmz035@gmail.com" class="contact-link">mohdzaidmz035@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+918688602788" class="contact-link">+91 86886 02788</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2003-03-22">March 22, 2003</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Hyderabad, Telangana, India</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://linkedin.com/in/mohammed-zaid" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/mohammed-zaid" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://twitter.com/zaid_ai" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="resume.html" class="navbar-link">Resume</a>
+          </li>
+          <li class="navbar-item">
+            <a href="portfolio.html" class="navbar-link active">Portfolio</a>
+          </li>
+          <li class="navbar-item">
+            <a href="blog.html" class="navbar-link">Blog</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="portfolio active">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Robotics</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>IoT</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>AI/ML</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Robotics</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>IoT</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>AI/ML</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="robotics">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Voice-Controlled Prosthetic Arm" loading="lazy">
+                </figure>
+                <h3 class="project-title">Voice-Controlled Prosthetic Arm</h3>
+                <p class="project-category">Robotics</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="iot">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="Smart Home IoT Hub" loading="lazy">
+                </figure>
+                <h3 class="project-title">Smart Home IoT Hub</h3>
+                <p class="project-category">IoT</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ai-ml">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-3.jpg" alt="Flood Rescue Drone" loading="lazy">
+                </figure>
+                <h3 class="project-title">Flood Rescue Drone</h3>
+                <p class="project-category">AI/ML</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="robotics">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-4.png" alt="Autonomous Line Follower" loading="lazy">
+                </figure>
+                <h3 class="project-title">Autonomous Line Follower</h3>
+                <p class="project-category">Robotics</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="iot">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-5.png" alt="Environmental Monitoring System" loading="lazy">
+                </figure>
+                <h3 class="project-title">Environmental Monitoring System</h3>
+                <p class="project-category">IoT</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ai-ml">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-6.png" alt="Object Detection System" loading="lazy">
+                </figure>
+                <h3 class="project-title">Object Detection System</h3>
+                <p class="project-category">AI/ML</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="robotics">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-7.png" alt="Industrial Robot Arm" loading="lazy">
+                </figure>
+                <h3 class="project-title">Industrial Robot Arm</h3>
+                <p class="project-category">Robotics</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="iot">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-8.jpg" alt="Smart Agriculture System" loading="lazy">
+                </figure>
+                <h3 class="project-title">Smart Agriculture System</h3>
+                <p class="project-category">IoT</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ai-ml">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-9.png" alt="Facial Recognition System" loading="lazy">
+                </figure>
+                <h3 class="project-title">Facial Recognition System</h3>
+                <p class="project-category">AI/ML</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html> 
